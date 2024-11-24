@@ -1,13 +1,13 @@
 {% set name = "markdownify" %}
-{% set version = "0.13.1" %}
+{% set version = "0.14.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/markdownify-{{ version }}.tar.gz
-  sha256: ab257f9e6bd4075118828a28c9d02f8a4bfeb7421f558834aa79b2dfeb32a098
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/markdownify-{{ version }}.tar.gz
+  sha256: d373eeac3ab6fa28bb1cdcb6432663e5aee85eae3cc4909f70f55a0a9cd1aea4
 
 build:
   entry_points:
