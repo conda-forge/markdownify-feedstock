@@ -14,15 +14,15 @@ build:
     - markdownify = markdownify.main:main
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
     - setuptools
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - beautifulsoup4 >=4.9,<5
     - six >=1.15,<2
 
@@ -34,6 +34,7 @@ test:
     - markdownify --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: http://github.com/matthewwithanm/python-markdownify
