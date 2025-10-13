@@ -144,4 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@gscoppino](https://github.com/gscoppino/)
+* [@moritzwilksch](https://github.com/moritzwilksch/)
 
