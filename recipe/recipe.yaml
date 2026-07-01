@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: markdownify
-  version: "1.2.2"
+  version: "1.2.3"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/markdownify-${{ version }}.tar.gz
-  sha256: b274f1b5943180b031b699b199cbaeb1e2ac938b75851849a31fd0c3d6603d09
+  sha256: 1a176f05522c8a2cb1dd3ab9d307dcdadbed5c26ae717855bfc42b3b6d38d937
 
 build:
   number: 0
