@@ -24,11 +24,10 @@ requirements:
   host:
     - python ${{ python_min }}.*
     - pip
-    - setuptools
+    - setuptools >=61.2
   run:
     - python >=${{ python_min }}
     - beautifulsoup4 >=4.9,<5
-    - six >=1.15,<2
 
 tests:
   - python:
